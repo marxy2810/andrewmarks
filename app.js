@@ -10,11 +10,11 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(express.static(__dirname + '/public/'));
 
-app.get("/", function(req, res) {
+app.get("/index", function(req, res) {
   res.sendFile(__dirname + "/index.html");
 });
 
-app.post("/", function(req, res) {
+app.post("/index", function(req, res) {
   const email = req.body.email;
 
   const data = {
