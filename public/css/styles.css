@@ -22,6 +22,14 @@ span {
   color: #3f72af;
 }
 
+a {
+    text-decoration: none !important;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
 .section-heading {
   line-height: 1.5;
   margin-top: 30px;
@@ -29,6 +37,10 @@ span {
 
 .container-fluid {
   padding: 1% 15% 0;
+}
+
+.col-lg-3 {
+  padding-bottom: 20px;
 }
 
 /* HEADING SECTION */
@@ -257,6 +269,10 @@ button:hover::after, button:focus::after {
 
 /* footer */
 
+.copyright {
+  font-size: 20px;
+}
+
 /* Newsletter */
 
 .form-signin {
@@ -294,4 +310,50 @@ button:hover::after, button:focus::after {
   text-align: center;
   width: 100%;
   padding-top: 2%;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1028px) {
+
+h1 {
+  font-size: 100px;
+}
+
+p {
+  font-size: 50px;
+}
+
+.title-heading {
+  padding-top: 40%;
+}
+
+.navbar {
+  font-size: 50px;
+}
+
+.navbar-brand {
+  font-size: 50px;
+}
+.btn-outline-dark {
+  margin-bottom: 10px;
+}
+
+#footer {
+  font-size: 30px;
+  text-align: center;
 }
