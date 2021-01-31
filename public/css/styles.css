@@ -263,6 +263,10 @@ button:hover::after, button:focus::after {
   padding-top: 100px;
 }
 
+#about.container-fluid{
+  padding: 5% 15% 5%;
+}
+
 .icon {
   margin: 3%;
 }
@@ -270,7 +274,7 @@ button:hover::after, button:focus::after {
 /* footer */
 
 .copyright {
-  font-size: 20px;
+  font-size: 15px;
 }
 
 /* Newsletter */
@@ -332,6 +336,10 @@ button:hover::after, button:focus::after {
 
 h1 {
   font-size: 100px;
+}
+
+h3 {
+  font-size: 40px;
 }
 
 p {
