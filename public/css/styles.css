@@ -366,6 +366,12 @@ p {
 .navbar-brand {
   font-size: 50px;
 }
+
+.navbar-toggler-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
 .btn-outline-dark {
   margin-bottom: 10px;
 }
