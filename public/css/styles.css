@@ -43,6 +43,10 @@ a {
   padding-bottom: 20px;
 }
 
+.darkmode-ignore {
+  width: 100%;
+}
+
 /* HEADING SECTION */
 
 #title {
@@ -252,6 +256,10 @@ button:hover::after, button:focus::after {
   padding-right: 1.5rem;
 }
 
+nav.navbar-item {
+  color: #07192E;
+}
+
 
 
 /* About Me  */
@@ -265,6 +273,7 @@ button:hover::after, button:focus::after {
 
 #about.container-fluid{
   padding: 5% 15% 5%;
+  z-index: -1;
 }
 
 .icon {

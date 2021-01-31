@@ -25,6 +25,7 @@
   <link type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="css/bootstrap-social.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <!-- <link rel="stylesheet" type="text/css" href="/css/dark.css"> -->
 
 
   <meta charset="utf-8">
@@ -39,11 +40,16 @@
 
   <header>
 
-    <section class="landing-section" id="title">
+    <section class="landing-section darkmode-ignore" id="title">
 
       <nav class="navbar fixed-top navbar-light" aria-label="Navbar">
         <!-- <div class="container-fluid"> -->
         <a class="navbar-brand" style="color: #07192E" href="#">Andrew Marks</a>
+
+
+    </span>
+</button>
+
         <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -66,7 +72,7 @@
         </div>
       </div>
 
-      <div class="landing-section" id="vantaBirds"></div>
+      <div class="landing-section darkmode-ignore" id="vantaBirds"></div>
 
     </section>
   </header>
@@ -114,7 +120,7 @@
           <img src="images/frontend-logo.png" width="160" height="auto" alt="frontend skills">
           <img src="images/bootstrap.png" width="auto" height="100" alt="frontend skills">
           <br>
-          <img src="images/jquery-logo.png" width="200" height="auto" alt="frontend skills">
+          <img src="images/jquery-icon.png" width="80" height="auto" alt="frontend skills">
           <img src="images/reactjs.png" width="auto" height="100" alt="frontend skills">
         </div>
 
@@ -307,6 +313,7 @@
               <!-- <li><a class="text-muted" href="">Blog</a></li> -->
               <li><a class="text-muted" href="">Contact</a></li>
             </ul>
+
           </div>
 
           <div class="col-lg-3">
@@ -360,3 +367,22 @@
       scaleMobile: 1.00
     })
   </script>
+
+<!-- DARK MODE -->
+
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+  const darkmode =  new Darkmode();
+darkmode.toggle();
+console.log(darkmode.isActivated()) // will return true
+
+
+
+
+</script>
+
+</body>
