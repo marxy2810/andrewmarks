@@ -290,7 +290,7 @@ nav.navbar-item {
 
 .form-signin {
   width: 100%;
-  max-width: 370px;
+  /* max-width: 370px; */
   padding: 0 15px 0;
   margin: auto;
 }
@@ -374,6 +374,14 @@ p {
 
 .btn-outline-dark {
   margin-bottom: 10px;
+}
+
+.form-signin .form-control {
+  font-size: 20px;
+}
+
+p.form-intro {
+  font-size: 30px;
 }
 
 #footer {
