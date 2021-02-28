@@ -339,6 +339,12 @@ nav.navbar-item {
   }
 }
 
+.btn-social-icon {
+  width: 52px;
+  height: 52px;
+  
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1028px) {
