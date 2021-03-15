@@ -2,7 +2,7 @@ body {
 background-color: #F9F7F7;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  color: #07192E;
+  color: #112D4E;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -342,7 +342,7 @@ nav.navbar-item {
 .btn-social-icon {
   width: 52px;
   height: 52px;
-  
+
 }
 
 /* Media Queries */
